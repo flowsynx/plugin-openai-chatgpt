@@ -1,4 +1,4 @@
-# FlowSynx OpenAI ChatGPT Plugin – FlowSynx Platform Integration
+## FlowSynx OpenAI ChatGPT Plugin – FlowSynx Platform Integration
 
 The OpenAI ChatGPT Plugin is a powerful, plug-and-play component for the FlowSynx engine that enables seamless integration with OpenAI’s ChatGPT models. It allows users to generate conversational AI responses based on dynamic prompts within their automated workflows—without writing a single line of code.
 
