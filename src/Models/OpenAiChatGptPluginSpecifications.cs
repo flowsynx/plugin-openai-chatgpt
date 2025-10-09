@@ -9,5 +9,5 @@ public class OpenAiChatGptPluginSpecifications: PluginSpecifications
 
     public string ApiUrl { get; set; } = "https://api.openai.com/v1/chat/completions";
 
-    public string Model { get; set; } = "gpt-3.5-turbo";
+    public string Model { get; set; } = "gpt-4o-mini";
 }
