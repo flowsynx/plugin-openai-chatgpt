@@ -83,4 +83,4 @@ A unique identifier is generated for each execution.
 
 ## License
 
-© FlowSynx. All rights reserved.
+Â© FlowSynx. All rights reserved.
