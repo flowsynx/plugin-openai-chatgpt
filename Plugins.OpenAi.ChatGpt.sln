@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowSynx.Plugins.OpenAi.Cha
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CCF0DCCC-0D96-40D6-B99C-41AEBD95B669}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowSynx.Plugins.OpenAi.ChatGpt.UnitTests", "tests\FlowSynx.Plugins.OpenAi.ChatGpt.UnitTests.csproj", "{EAC94C12-EE62-440D-9567-C222ADC83BED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,8 +21,19 @@ Global
 		{EFD79334-584B-4937-B11C-CD336ADBBA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFD79334-584B-4937-B11C-CD336ADBBA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFD79334-584B-4937-B11C-CD336ADBBA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC94C12-EE62-440D-9567-C222ADC83BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC94C12-EE62-440D-9567-C222ADC83BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC94C12-EE62-440D-9567-C222ADC83BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC94C12-EE62-440D-9567-C222ADC83BED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EFD79334-584B-4937-B11C-CD336ADBBA8E} = {CCF0DCCC-0D96-40D6-B99C-41AEBD95B669}
+		{EAC94C12-EE62-440D-9567-C222ADC83BED} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43A825FF-F7C5-4C49-8205-065DE0C7B9B2}
 	EndGlobalSection
 EndGlobal
